@@ -11,6 +11,7 @@
 		406A063F2808506E00641B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A063E2808506E00641B02 /* ContentView.swift */; };
 		406A06412808506E00641B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406A06402808506E00641B02 /* Assets.xcassets */; };
 		406A06442808506E00641B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406A06432808506E00641B02 /* Preview Assets.xcassets */; };
+		406A064B2808512C00641B02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A064A2808512C00641B02 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		406A063E2808506E00641B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		406A06402808506E00641B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406A06432808506E00641B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		406A064A2808512C00641B02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		406A063B2808506E00641B02 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
+				406A064C2808513A00641B02 /* Home */,
 				406A063C2808506E00641B02 /* NetflixApp.swift */,
 				406A063E2808506E00641B02 /* ContentView.swift */,
 				406A06402808506E00641B02 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				406A06432808506E00641B02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		406A064C2808513A00641B02 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				406A064A2808512C00641B02 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406A064B2808512C00641B02 /* HomeView.swift in Sources */,
 				406A063F2808506E00641B02 /* ContentView.swift in Sources */,
 				406A063D2808506E00641B02 /* NetflixApp.swift in Sources */,
 			);
