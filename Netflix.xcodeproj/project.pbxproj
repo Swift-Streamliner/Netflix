@@ -17,6 +17,7 @@
 		406A06542808576900641B02 /* StandartHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A06532808576900641B02 /* StandartHomeMovie.swift */; };
 		406A0657280857C300641B02 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A0656280857C300641B02 /* Helper.swift */; };
 		406A065B28085BA100641B02 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A065A28085BA100641B02 /* HomeVM.swift */; };
+		4079ADA4280DFE9C0081D34C /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079ADA3280DFE9C0081D34C /* SmallVerticalButton.swift */; };
 		40B16E52280B73C000B6CA00 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B16E51280B73C000B6CA00 /* TopMoviePreview.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		406A06532808576900641B02 /* StandartHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandartHomeMovie.swift; sourceTree = "<group>"; };
 		406A0656280857C300641B02 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		406A065A28085BA100641B02 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		4079ADA3280DFE9C0081D34C /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		40B16E51280B73C000B6CA00 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				406A064C2808513A00641B02 /* Home */,
 				406A063C2808506E00641B02 /* NetflixApp.swift */,
 				40B16E51280B73C000B6CA00 /* TopMoviePreview.swift */,
+				4079ADA3280DFE9C0081D34C /* SmallVerticalButton.swift */,
 				406A063E2808506E00641B02 /* ContentView.swift */,
 				406A06402808506E00641B02 /* Assets.xcassets */,
 				406A06422808506E00641B02 /* Preview Content */,
@@ -195,6 +198,7 @@
 				40B16E52280B73C000B6CA00 /* TopMoviePreview.swift in Sources */,
 				406A063D2808506E00641B02 /* NetflixApp.swift in Sources */,
 				406A0657280857C300641B02 /* Helper.swift in Sources */,
+				4079ADA4280DFE9C0081D34C /* SmallVerticalButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
