@@ -37,7 +37,6 @@ struct SmallVerticalButton: View {
                     .bold()
             }
         })
-        Image(systemName: isOnImage)
     }
 }
 
