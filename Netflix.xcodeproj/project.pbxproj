@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400317822813F914004CCE15 /* TopRowButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400317812813F914004CCE15 /* TopRowButtons.swift */; };
 		406A063D2808506E00641B02 /* NetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A063C2808506E00641B02 /* NetflixApp.swift */; };
 		406A063F2808506E00641B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A063E2808506E00641B02 /* ContentView.swift */; };
 		406A06412808506E00641B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406A06402808506E00641B02 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400317812813F914004CCE15 /* TopRowButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowButtons.swift; sourceTree = "<group>"; };
 		406A06392808506E00641B02 /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406A063C2808506E00641B02 /* NetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixApp.swift; sourceTree = "<group>"; };
 		406A063E2808506E00641B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400317802813F8A7004CCE15 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				40B16E51280B73C000B6CA00 /* TopMoviePreview.swift */,
+				4079ADA3280DFE9C0081D34C /* SmallVerticalButton.swift */,
+				40784B02280F594B007FBC5A /* WhiteButton.swift */,
+				400317812813F914004CCE15 /* TopRowButtons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		406A06302808506D00641B02 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +86,6 @@
 				406A0650280856F500641B02 /* Models */,
 				406A064C2808513A00641B02 /* Home */,
 				406A063C2808506E00641B02 /* NetflixApp.swift */,
-				40B16E51280B73C000B6CA00 /* TopMoviePreview.swift */,
-				4079ADA3280DFE9C0081D34C /* SmallVerticalButton.swift */,
-				40784B02280F594B007FBC5A /* WhiteButton.swift */,
 				406A063E2808506E00641B02 /* ContentView.swift */,
 				406A06402808506E00641B02 /* Assets.xcassets */,
 				406A06422808506E00641B02 /* Preview Content */,
@@ -94,6 +104,7 @@
 		406A064C2808513A00641B02 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				400317802813F8A7004CCE15 /* Components */,
 				406A064A2808512C00641B02 /* HomeView.swift */,
 				406A06532808576900641B02 /* StandartHomeMovie.swift */,
 				406A065A28085BA100641B02 /* HomeVM.swift */,
@@ -195,6 +206,7 @@
 			files = (
 				406A064B2808512C00641B02 /* HomeView.swift in Sources */,
 				406A063F2808506E00641B02 /* ContentView.swift in Sources */,
+				400317822813F914004CCE15 /* TopRowButtons.swift in Sources */,
 				406A065B28085BA100641B02 /* HomeVM.swift in Sources */,
 				406A06522808570000641B02 /* Movie.swift in Sources */,
 				406A06542808576900641B02 /* StandartHomeMovie.swift in Sources */,
