@@ -32,6 +32,11 @@ struct MovieDetail: View {
                         MovieInfoSubheadline(movie: movie)
                         .foregroundColor(.gray)
                         .padding(.vertical, 6)
+                        if movie.promotionHeadline != nil {
+                            Text(movie.promotionHeadline!)
+                                .bold()
+                                .font(.headline)
+                        }
                     }
                 }
                 
@@ -44,6 +49,6 @@ struct MovieDetail: View {
 
 struct MovieDetail_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetail(movie: exampleMovie1)
+        MovieDetail(movie: exampleMovie2)
     }
 }

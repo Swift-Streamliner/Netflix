@@ -11,12 +11,12 @@ struct MovieInfoSubheadline: View {
     var movie: Movie
     
     var body: some View {
-        HStack {
+        HStack(spacing: 20) {
             Image(systemName: "hand.thumbsup.fill")
                 .foregroundColor(.white)
-            Text("MOVIE YEAR")
-            Text("RATING")
-            Text("Seasons")
+            Text(String(movie.year))
+            RatingView(rating: movie.rating)
+            Text(movie.numberOfSeasonsDisplay)
         }
     }
 }
