@@ -37,7 +37,25 @@ struct MovieDetail: View {
                                 .bold()
                                 .font(.headline)
                         }
+                        PlayButton(text: "Play", imageName: "play.fill", backgroundColor: .red) {
+                            //
+                        }
+                        
+                        // Current Episode Information
+                        // 1. Default
+                        HStack {
+                            Text(movie.episodeInfoDisplay)
+                                .bold()
+                            Spacer()
+                        }.padding(.vertical, 4)
+                        HStack {
+                            Text(movie.episodeDescriptionDisplay)
+                                .font(.subheadline)
+                            Spacer()
+                        }
+                        // 2. Personalized - where the user currently is
                     }
+                    .padding(.horizontal, 10)
                 }
                 
                 Spacer()
